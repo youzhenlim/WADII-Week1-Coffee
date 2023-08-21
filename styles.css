@@ -1,0 +1,174 @@
+/* ... (previous styles) ... */
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    font-size: 24px; /* Increase the font size */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ... (previous styles) ... */
+
+.products {
+    display: flex;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 20px;
+    margin-bottom: 0; /* Remove bottom margin to minimize space */
+}
+
+/* ... (previous styles) ... */
+
+.product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 300px;
+    margin-right: 20px;
+    max-width: 100%;
+    height: auto;
+    display: flex; /* Enable flex layout */
+    flex-direction: column; /* Arrange child elements vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+}
+
+.product-photo {
+    max-width: 100%;
+    max-height: 320px;
+    width: auto; /* Adjust width to prevent image distortion */
+    height: auto;
+}
+
+.product-title {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.product-description {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* ... (previous styles) ... */
+
+
+.search-form {
+    margin-top: 10px; /* Add some spacing between the title and search bar */
+}
+
+.search-form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.search-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ... (previous styles) ... */
+
+.product-card button {
+    background-color: #007bff; /* Change the button background color */
+    color: #fff;
+    border: none;
+    padding: 8px 16px; /* Adjust padding for a sleeker look */
+    border-radius: 4px; /* Apply rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Add transition for smooth hover effect */
+    /* ... (previous button styles) ... */
+    display: block; /* To center the button */
+    margin: 0 auto; /* To center the button horizontally */
+}
+
+.product-card button:hover {
+    background-color: #0056b3; /* Darken the background on hover */
+}
+
+/* ... (previous styles) ... */
+
+
+/* ... (previous styles) ... */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    flex-shrink: 0; /* Prevent footer from shrinking */
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: #007bff; /* Change link color on hover */
+}
+
+/* ... (previous styles) ... */
+
+
+
+/* ... (previous styles) ... */
+
+.about {
+    background-color: #f5f5f5; /* Light background color */
+    padding: 40px;
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    font-size: 18px;
+    color: #333; /* Dark text color */
+    border-top: 1px solid #ddd; /* Add a subtle border at the top */
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff; /* Accent color for headings */
+}
+
+/* ... (previous styles) ... */
